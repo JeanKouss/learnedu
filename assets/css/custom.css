@@ -1,0 +1,20 @@
+.btn-i-am {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 20, 39);
+    text-align: left;
+    padding: 0.5rem;
+    font-weight: bolder;
+
+}
+
+.btn-i-am:nth-child(2) {
+    border-bottom: 1px solid rgb(94, 94, 94);
+    border-top: 1px solid rgb(94, 94, 94);
+}
+
+.i-am-container {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+}
