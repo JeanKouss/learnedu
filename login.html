@@ -54,7 +54,6 @@
   </section>
 
   <!-- ======= Header ======= -->
-  <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
@@ -64,13 +63,13 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto " href="./index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="./index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="./index.html#about">About</a></li>
           <li><a class="nav-link scrollto" href="./index.html#services">Services</a></li>
           <li><a class="nav-link scrollto" href="./index.html#team">Team</a></li>
           <li class="dropdown"><a href="#"><span>Account</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="./login.html" class="">Login</a></li>
+              <li><a href="./login.html" class="active">Login</a></li>
               <li><a href="./register.html">Register</a></li>
               <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
@@ -100,11 +99,11 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Inner Page</h2>
-          <ol>
+          <h2>Login</h2>
+          <!-- <ol>
             <li><a href="index.html">Home</a></li>
             <li>Inner Page</li>
-          </ol>
+          </ol> -->
         </div>
 
       </div>
@@ -112,9 +111,32 @@
 
     <section class="inner-page">
       <div class="container">
-        <p>
-          Example inner page template
-        </p>
+        <!-- Register form -->
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword">
+          </div>
+          
+          
+          
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="rememberMe">
+              <label class="form-check-label" for="rememberMe">
+                Remember Me
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </div>
+        </form>
+        <!-- End register form -->
       </div>
     </section>
 
